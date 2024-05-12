@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('font/icomoon.eot');
+  src:  url('font/icomoon.eot') format('embedded-opentype'),
+    url('font/icomoon.ttf') format('truetype'),
+    url('font/icomoon.woff') format('woff'),
+    url('font/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-right:before {
+  content: "\e90a";
+  color: #8a8a8a;
+}
+.icon-transfer:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-addition:before {
+  content: "\e905";
+  color: #8a8a8a;
+}
+.icon-emoji:before {
+  content: "\e906";
+  color: #8a8a8a;
+}
+.icon-more:before {
+  content: "\e907";
+}
+.icon-return:before {
+  content: "\e908";
+}
+.icon-voice-circle:before {
+  content: "\e909";
+  color: #8a8a8a;
+}
+.icon-message:before {
+  content: "\e904";
+  color: #8a8a8a;
+}
+.icon-home:before {
+  content: "\e900";
+  color: #8a8a8a;
+}
+.icon-user:before {
+  content: "\e901";
+  color: #8a8a8a;
+}
+.icon-alipay-circle-fill:before {
+  content: "\e902";
+  color: #8a8a8a;
+}
+.icon-wechat-fill:before {
+  content: "\e903";
+  color: #8a8a8a;
+}
+

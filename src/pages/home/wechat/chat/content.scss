@@ -1,0 +1,128 @@
+.msg-container {
+	width: 100%;
+
+	.msg-box-scroller {
+		::-webkit-scrollbar {
+			display: none;
+			height: 0;
+			width: 0;
+		}
+	}
+}
+
+.message {
+  padding: 13rpx 20rpx;
+}
+
+.message-item {
+  font-size: 32rpx;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  .marginLeft-100 {
+    margin-right: 110rpx;
+  }
+
+  .margentRight-100 {
+    margin-left: 110rpx;
+  }
+
+  .img {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 5rpx;
+  }
+
+  &.right {
+    flex-direction: row-reverse;
+
+    .content {
+      background-color: #95ec69;
+      margin-right: 28rpx;
+      word-break: break-all;
+      line-height: 36rpx;
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10rpx solid transparent;
+        border-bottom: 10rpx solid transparent;
+        border-left: 16rpx solid #95ec69;
+        position: absolute;
+        right: -16rpx;
+        top: 30rpx;
+      }
+    }
+
+    .contentType5 {
+      background-color: #ffffff !important;
+
+      &::after {
+        border-left: 16rpx solid #fff !important;
+      }
+    }
+
+    .contentType9 {
+      background-color: #ffffff !important;
+
+      &::after {
+        border-left: 16rpx solid #fff !important;
+      }
+    }
+
+    .contentType6 {
+      background-color: #f29100;
+
+      &::after {
+        border-left: 16rpx solid #f29100;
+      }
+    }
+  }
+
+  &.left {
+    .content {
+      background-color: #ffffff;
+      margin-left: 28rpx;
+      word-break: break-all;
+      line-height: 36rpx;
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10rpx solid transparent;
+        border-bottom: 10rpx solid transparent;
+        border-right: 16rpx solid #ffffff;
+        position: absolute;
+        left: -16rpx;
+        top: 30rpx;
+      }
+    }
+
+    .contentType6 {
+      background-color: #f29100;
+
+      &::after {
+        border-right: 16rpx solid #f29100;
+      }
+    }
+
+    .contentType9 {
+      background-color: #ffffff !important;
+
+      &::after {
+        border-right: 16rpx solid #ffffff !important;
+      }
+    }
+  }
+}
